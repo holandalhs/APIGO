@@ -46,3 +46,6 @@ Em síntese, a aplicação em Go usando o framework Gin foi executada com sucess
 
 -> status do projeto:
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+
+Luanna Siqueira curso.siqueira@gmail.com

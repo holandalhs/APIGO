@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes: 
+      - postgresql-db-api:/var/lib/postgresql/data
+      #postgresql-db-go:/var/lib/docker/volumes/postgresql-db-go/_data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456789
+      POSTGRES_DB: postgres
+    ports:
+      - "5434:5432"  ###ports 5432 e 5433 usadas
+
+volumes:
+  postgresql-db-api:
+    external: true
